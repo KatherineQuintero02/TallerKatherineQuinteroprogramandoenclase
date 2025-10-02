@@ -4,7 +4,7 @@
   <tittle>Mi primera pagina</tittle>
 </head>
 
-<body> 
+<body>
   <h1>Hola Soy Katherine</h1>
   <p>Esta es mi primera pagina web, <strong>estoy aprendiendo a programar en introduccion a la programacion</strong></p>
   <p>Mi comida favorita es el <em>sushi</em></p>
@@ -118,104 +118,126 @@
       <a href="#">Contacto</a>
     </p>
   </footer>
- 
-  
+
+
   <!-- Ejmplo de como se realiza un formulariode login -->
-<form><!-- Siempre iniciamos con la etiqueta de form -->
-  <p><!-- -->
-    <label for="Identificacion">Tu Identificacion:</label><!-- Creamos el label que ira antes de la caja de texto -->
-    <input type="text"id="Identificacion"name="identificacion"><!-- Creamos la caja de texto -->
-  </p><!-- Cerramos el parrafo -->
-  <p><!-- Abrimos otro parrafo -->
-    <label for="password">Tu Contraseña:</label><!-- Creamos el label o titulo "tu contraseña" -->
-    <input type="password"id="password"name="password"><!-- Creamos la caja para dijitar la contraseña -->
-  </p><!-- Cerramos el parrafo -->
-  <p><!-- creamos otro parrafo para incorporar el boton -->
-    <button type="sumbit">Ingresar/Login</button><!-- Creamos el boton y el nombre del boton --> 
+  <form><!-- Siempre iniciamos con la etiqueta de form -->
+    <p><!-- -->
+      <label for="Identificacion">Tu Identificacion:</label><!-- Creamos el label que ira antes de la caja de texto -->
+      <input type="text" id="Identificacion" name="identificacion"><!-- Creamos la caja de texto -->
+    </p><!-- Cerramos el parrafo -->
+    <p><!-- Abrimos otro parrafo -->
+      <label for="password">Tu Contraseña:</label><!-- Creamos el label o titulo "tu contraseña" -->
+      <input type="password" id="password" name="password"><!-- Creamos la caja para dijitar la contraseña -->
+    </p><!-- Cerramos el parrafo -->
+    <p><!-- creamos otro parrafo para incorporar el boton -->
+      <button type="sumbit">Ingresar/Login</button><!-- Creamos el boton y el nombre del boton -->
   </form><!-- Finalmente cerramos el formulario. -->
 
   <h1>Mi Pagina Con Estilo</h1>
   <p>Este es un parrafo normal</p>
   <p Class="destacado">Este parrafo es especial con un estilo chimba.</p>
 
-body{
+  body{
   background-color:lightgreen;
   font-family:Arial;
-}
-h1{
+  }
+  h1{
   color:darkred;
   text-aling:center;
-}
-.destacado{
+  }
+  .destacado{
   background-color:pink;
   font-weight:bold;
-}
+  }
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    /* Selector de etiqueta */
-    p { color: green; }
-    
-    /* Selector de clase */
-    .importante { font-weight: bold; }
-    
-    /* Selector de ID */
-    #unico { background: pink; }
-    
-    /* Selector descendiente */
-    div p { border: 1px solid red; }
-    
-    /* Pseudoclase */
-    button:hover { background: rgb(200, 144, 238); }
-</style>
-</head>
-<body>
+  <!DOCTYPE html>
+  <html>
 
-<p>Este es azul (selector etiqueta)</p>
-<p class="importante">Este es azul Y negrita (clase)</p>
-<div id="unico">Este tiene fondo amarillo (ID)</div>
-<div><p>Este tiene borde (descendiente)</p></div>
-<button>Pasa el mouse aquí (hover)</button>
+  <head>
+    <style>
+      /* Selector de etiqueta */
+      p {
+        color: green;
+      }
 
-</body>
-</html>
+      /* Selector de clase */
+      .importante {
+        font-weight: bold;
+      }
+
+      /* Selector de ID */
+      #unico {
+        background: pink;
+      }
+
+      /* Selector descendiente */
+      div p {
+        border: 1px solid red;
+      }
+
+      /* Pseudoclase */
+      button:hover {
+        background: rgb(200, 144, 238);
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <p>Este es azul (selector etiqueta)</p>
+    <p class="importante">Este es azul Y negrita (clase)</p>
+    <div id="unico">Este tiene fondo amarillo (ID)</div>
+    <div>
+      <p>Este tiene borde (descendiente)</p>
+    </div>
+    <button>Pasa el mouse aquí (hover)</button>
+
+  </body>
+
+  </html>
 
 
-<h1>Se coloreara de color: #FF5733 <style>color: #FF5733;</style></h1>
+  <h1>Se coloreara de color: #FF5733 <style>
+      color: #FF5733;
+    </style>
+  </h1>
 
-<p>Se coloreara de color: rgb(70, 130, 180) <style></style></p>
+  <p>Se coloreara de color: rgb(70, 130, 180) <style></style>
+  </p>
 
-<div>Se coloreara de color:  plum</div>
+  <div>Se coloreara de color: plum</div>
 
-h1 {
+  h1 {
   color: #FF5733; /*Naranja en hexadecimal */
-}
-p {
+  }
+  p {
   color: rgb(70, 130, 180); /*Azul acero en RGB */
-}
-div {
+  }
+  div {
   background-color: pink; /* Morado claro por nombre */
-}
+  }
 
-<h1>Hola <style>width: 500px;</style></h1> 
- <p>Hooolaaaaa</p>
- <div>HOLAAAA</div>
+  <h1>Hola <style>
+      width: 500px;
+    </style>
+  </h1>
+  <p>Hooolaaaaa</p>
+  <div>HOLAAAA</div>
 
-div {
-width: 500px;
-background-color: #ddd;
-padding: 100px;
-border: 100px solid green;
-margin: 50px;
-}
-  
-<div class="caja1">Caja 1</div>
-<div class="caja2">Caja 2</div>
-<div class="caja3">Caja 3</div>
+  div {
+  width: 500px;
+  background-color: #ddd;
+  padding: 100px;
+  border: 100px solid green;
+  margin: 50px;
+  }
 
-.caja1 {
+  <div class="caja1">Caja 1</div>
+  <div class="caja2">Caja 2</div>
+  <div class="caja3">Caja 3</div>
+
+  .caja1 {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -223,9 +245,9 @@ margin: 50px;
   margin: 10px;
   text-align: center;
   line-height: 100px;
-}
+  }
 
-.caja2 {
+  .caja2 {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -233,10 +255,10 @@ margin: 50px;
   margin: 10px;
   text-align: center;
   line-height: 100px;
-}
+  }
 
 
-.caja3 {
+  .caja3 {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -244,7 +266,7 @@ margin: 50px;
   margin: 10px;
   text-align: center;
   line-height: 100px;
-}
+  }
 
 
 
